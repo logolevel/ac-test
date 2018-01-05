@@ -1,0 +1,10 @@
+@import "_mixins/font-face";
+
+@include fontFace("PFDinTextCompPro", "../fonts/PFDinTextCompPro-Regular/PFDinTextCompPro-Regular", normal, normal);
+@include fontFace("PFDinTextCompPro", "../fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin", normal, 300);
+@include fontFace("PFDinTextCompPro", "../fonts/PFDinTextCompPro-XThin/PFDinTextCompPro-XThin", normal, 200);
+
+@include fontFace("DINNextLTPro", "../fonts/DINNextLTPro-Regular/DINNextLTPro-Regular", normal, normal);
+@include fontFace("DINNextLTPro", "../fonts/DINNextLTPro-Medium/DINNextLTPro-Medium", normal, 500);
+
+@include fontFace("entypo", "../fonts/entypo/entypo", normal, normal);
